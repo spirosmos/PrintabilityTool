@@ -10,7 +10,7 @@ The tool calculates the part characteristic score (PF) for a part to be printed 
 -	The tool can store a specific configuration given by the user as a .json file. 
 -	There is a warning when the probability for successful printing is less than 50%.
 
-<img src="prntScreen,png.png" width=50%>
+<img src="Printability_proj/Images/toolScreen.png" width=50%>
 
 ## Reference
 
