@@ -322,20 +322,41 @@ def computePFperChar(data, technology, application):
 
 
 ######################## TEST #################################
+
+'''
+Dictionary format:
+
+dict ={
+'Holes': 			[[dimension, dimensional error], [ ,  ], …],
+'Pins': 			[[ ,  ], …],
+'Supported_walls': 		[[ ,  ], …],
+'Unsupported_walls': 		[[ ,  ], …],
+'Empossed_details_width': 	[[ ,  ], …],
+'Empossed_details_height': 	[[ ,  ], …],
+'Engraved_details_width': 	[[ ,  ], …],
+'Engraved _details_height': 	[[ ,  ], …],
+'Thin_features':		[[ ,  ], …],
+'Area_CAD': 			[ ],
+'Area_STL': 			[ ]
+}
+
+
+'''
+
 '''
 
 #study_case_6
-data = {"Holes":	 				[[5.5, 0.093310], [6.5, 0.091686]], 
-		"Pins": 					[[6.5, 0.095907], [7.5, 0.093293]], 
-		"Supported_walls":			[[6.5, 0.096814], [7.5, 0.109800]],
+data = {"Holes":				[[5.5, 0.093310], [6.5, 0.091686]], 
+		"Pins": 			[[6.5, 0.095907], [7.5, 0.093293]], 
+		"Supported_walls":		[[6.5, 0.096814], [7.5, 0.109800]],
 		"Unsupported_walls":		[[9.5, 0.087855], [8.5, 0.085138]], 
 		"Embossed_details_Width":	[[3.5, 0.096621], [4.5, 0.092030]], 
 		"Embossed_details_Height":	[[3.5, 0.096621], [4.5, 0.092030]], 
 		"Engraved_details_Width":	[[3.5, 0.093710], [4.5, 0.091417]], 
 		"Engraved_details_Height":	[[3.5], [4.5]], 
-		"Thin_Features": 			[[6.5, 0.084104], [7.5, 0.087484]], 
-		"Area_STL":					[], 
-		"Area_CAD":					[]
+		"Thin_Features": 		[[6.5, 0.084104], [7.5, 0.087484]], 
+		"Area_STL":			[], 
+		"Area_CAD":			[]
 }
 
 FDM = 0
