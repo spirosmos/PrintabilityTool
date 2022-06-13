@@ -14,7 +14,7 @@ The tool calculates the part characteristic score (PF) for a part to be printed 
 
 ## Reference
 
-ArcivX link
+ArxivX link
 
 ## Dependencies 
 
