@@ -14,7 +14,7 @@ The tool calculates the part characteristic score (PF) for a part to be printed 
 
 ## Reference
 
-ArxivX link
+https://doi.org/10.1108/RPJ-11-2022-0402
 
 ## Dependencies 
 
